@@ -41,5 +41,4 @@ const generatePassword = () => {
   return shuffleString(password)
 }
 
-const pass = generatePassword()
-console.log(pass)
+module.exports = { generatePassword }
